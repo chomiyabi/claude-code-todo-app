@@ -22,6 +22,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   iproute2 \
   dnsutils \
   aggregate \
+  socat \
   jq \
   nano \
   vim \
@@ -89,3 +90,4 @@ RUN npm install -g @anthropic-ai/claude-code@${CLAUDE_CODE_VERSION}
 #   echo "node ALL=(root) NOPASSWD: /usr/local/bin/init-firewall.sh" > /etc/sudoers.d/node-firewall && \
 #   chmod 0440 /etc/sudoers.d/node-firewall
 USER node
+
