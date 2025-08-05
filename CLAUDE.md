@@ -57,3 +57,4 @@
 - Use semantic commit messages
 - Keep components small and focused
 - Document complex logic with comments only when necessary
+- Run typecheck and lint after completing tasks and be sure they ALWAYS pass
